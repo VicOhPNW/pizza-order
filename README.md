@@ -21,7 +21,7 @@ Independent exercise to apply Javascript skills learned in weeks 1-4 of Epicodus
 
 ## Specification
 | Behavior        | Input           | Output  | Pass?  |
-| ------------- |:-------------:| :-----:|
+| ------------- |:-------------:| :-----:|-----:
 | User can choose size of pizza  | small $6   | small $6 |   |
 | User can choose one topping and display price  | olives  | $1.00  |   |
 | User can choose 2+ toppings and display price | olives & sausage  | $2.50  |   |
