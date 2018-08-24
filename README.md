@@ -20,13 +20,13 @@ Project Objectives:
 Independent exercise to apply Javascript skills learned in weeks 1-4 of Epicodus' _Intro to Programming_ course.
 
 ## Specification
-| Behavior        | Input           | Output  |
-| ------------- |:-------------:| -----:|
-|  |    |   |
-|  |    |   |
-|  |    |   |
-|  |    |   |
-|  |    |   |
+| Behavior        | Input           | Output  | Pass?  |
+| ------------- |:-------------:| :-----:|
+| User can choose size of pizza  | small $6   | small $6 |   |
+| User can choose one topping and display price  | olives  | $1.00  |   |
+| User can choose 2+ toppings and display price | olives & sausage  | $2.50  |   |
+| User can choose any size of pizza and number of toppings to display price | small, olives & sausage   | $9.50  |   |
+|  |    |   |   |
 
 ## Setup/Installation Requirements
 1. Clone the following repository: https://github.com/VicOhPNW/pizza-order.git
