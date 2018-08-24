@@ -1,0 +1,44 @@
+
+* {
+  font-family: 'Rajdhani', sans-serif;;
+}
+
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.emphasize {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #ffd9b3
+}
+
+#orderButton {
+  margin-top: 30px;
+}
+
+#toppings {
+  margin-top: 40px;
+}
+
+#size {
+  margin-top: 40px;
+}
+
+#fulfillment {
+  margin-top: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

@@ -5,6 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:500" rel="stylesheet">
     <title>Order Charlie's online</title>
   </head>
   <body>
@@ -16,8 +17,8 @@
 <!-- Begin Pizza Form -->
       <div class="form">
         <form id="pizzaForm">
-          <div class="row">
-            <h4>Choose a size:</h4>
+          <div class="row" id="size">
+            <h3>Choose a size:</h3>
             <div class="col-md-3">
               <label>
                 <img src="img/small.png" alt="small pizza display size">
@@ -40,20 +41,35 @@
                 </label>
             </div>
           </div>
-
-          <div class="row">
-            <h4>Choose topping(s):</h4>
+          <div class="row" id="toppings">
+            <h3>Choose topping(s) to fit your taste:</h3>
             <div class="col-md-3">
+              <h4>$1 toppings:</h4>
               <ul>
                 <li><input type="checkbox" name="topping" value="olives"> Black olives</li>
                 <li><input type="checkbox" name="topping" value="mushrooms"> Mushrooms</li>
                 <li><input type="checkbox" name="topping" value="onion"> Onion</li>
               </ul>
             </div>
+            <div class="col-md-3">
+              <h4>$1.50 toppings:</h4>
+              <ul>
+                <li><input type="checkbox" name="topping" value="sausage"> Sausage</li>
+                <li><input type="checkbox" name="topping" value="ham"> Ham</li>
+                <li><input type="checkbox" name="topping" value="pepperoni"> Pepperoni</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>$2.00 toppings:</h4>
+              <ul>
+                <li><input type="checkbox" name="topping" value="ricotta"> Ricotta</li>
+                <li><input type="checkbox" name="topping" value="artichokes"> Artichokes</li>
+                <li><input type="checkbox" name="topping" value="chicken"> Chicken</li>
+              </ul>
+            </div>
           </div>
-
-          <div class="row">
-            <h4>Fulfillment method:</h4>
+          <div class="row" id="fulfillment">
+            <h3>Fulfillment method:</h3>
             <label>
               <input type="radio" name="fulfillment" value="pick-up">
               Pick-up
@@ -65,14 +81,12 @@
             </label>
           </div>
 
-
-
           <button id="orderButton" type="submit" class="btn btn-info">Submit for total</button>
         </form>
       </div>
 <!-- End Pizza Form -->
 <!-- Begin Results -->
-      <div class-"Results">
+      <div class="Results">
         <h2>Total is:<span id="pizzaTotal"></span></h2>
       </div>
 

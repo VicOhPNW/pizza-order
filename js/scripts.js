@@ -22,8 +22,6 @@ function PizzaOrder(size, fulfillment) {
   this.fulfillment = fulfillment;
 }
 
-function Toppings()
-
 var pizzaSize = {"small":6, "medium":8, "large":10};
 var pizzaTopping = {"olives":1, "mushrooms":1, "onion":1};
 var pizzaFulfillment = {"delivery":3, "pickup":0};

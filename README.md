@@ -26,7 +26,7 @@ Independent exercise to apply Javascript skills learned in weeks 1-4 of Epicodus
 | User can choose one topping and display price  | olives  | $1.00  |   
 | User can choose 2+ toppings and display price | olives & sausage  | $2.50  |
 | User can choose any size of pizza and number of toppings to display price | small, olives & sausage   | $9.50  |
-| User will see list of clickable pizzas ordered and upon click will see details |  Order 1  | small, olives & sausage, $9.50 | 
+| User will see list of clickable pizzas ordered and upon click will see details |  Order 1  | small, olives & sausage, $9.50 |
 
 ## Setup/Installation Requirements
 1. Clone the following repository: https://github.com/VicOhPNW/pizza-order.git
@@ -34,7 +34,8 @@ Independent exercise to apply Javascript skills learned in weeks 1-4 of Epicodus
 3. Click the preferred options then submit for the total cost.
 
 ## Known Bugs
-TBD
+1. Does not calculate the sum of the toppings (values).
+2. Choosing option "Pick-up" returns #NaN. I think this is because the value for "pick-up" is 0 and reading as false, but not confident. Did not seem to have this issue with an exercise earlier in the week.
 
 ## Support and contact details
 Victoria, ohvictori@gmail.com
