@@ -8,7 +8,7 @@
     <title>Order Charlie's online</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <div class="jumbotron">
         <h1>Charlie's Pizza</h1>
         <h2>Order for pickup or delivery</h2>
@@ -17,6 +17,7 @@
       <div class="form">
         <form id="pizzaForm">
           <div class="row">
+            <h4>Choose a size:</h4>
             <div class="col-md-3">
               <label>
                 <img src="img/small.png" alt="small pizza display size">
@@ -39,6 +40,33 @@
                 </label>
             </div>
           </div>
+
+          <div class="row">
+            <h4>Choose topping(s):</h4>
+            <div class="col-md-3">
+              <ul>
+                <li><input type="checkbox" name="topping" value="olives"> Black olives</li>
+                <li><input type="checkbox" name="topping" value="mushrooms"> Mushrooms</li>
+                <li><input type="checkbox" name="topping" value="onion"> Onion</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <h4>Fulfillment method:</h4>
+            <label>
+              <input type="radio" name="fulfillment" value="pick-up">
+              Pick-up
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="fulfillment" value="delivery">
+              Delivery
+            </label>
+          </div>
+
+
+
           <button id="orderButton" type="submit" class="btn btn-info">Submit for total</button>
         </form>
       </div>
