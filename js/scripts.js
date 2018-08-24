@@ -9,22 +9,24 @@ $(document).ready(function() {
 
     var newPizzaOrder = new PizzaOrder(size, topping, fulfillment);
 
-    $("#pizzaTotal").text(newPizzaOrder.amount);
+    $("#pizzaTotal").text(" $" + (+ newPizzaOrder.amount()));
   });
 });
 
 
 
 //Backend Logic
-function PizzaOrder(size, topping, fulfillment) {
+function PizzaOrder(size, fulfillment) {
   this.size = size;
-  this.topping = topping;
+  this.toppings = [];
   this.fulfillment = fulfillment;
 }
 
+function Toppings()
+
 var pizzaSize = {"small":6, "medium":8, "large":10};
 var pizzaTopping = {"olives":1, "mushrooms":1, "onion":1};
-var pizzaFulfillment = {"pickup":0, "delivery":3}
+var pizzaFulfillment = {"delivery":3, "pickup":0};
 
 PizzaOrder.prototype.amount = function() {
   return pizzaSize[this.size] + pizzaTopping[this.topping] + pizzaFulfillment[this.fulfillment];
