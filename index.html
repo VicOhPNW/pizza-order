@@ -15,33 +15,39 @@
       </div>
 <!-- Begin Pizza Form -->
       <div class="form">
-        <form id="pizzaOrder">
+        <form id="pizzaForm">
           <div class="row">
             <div class="col-md-3">
               <label>
                 <img src="img/small.png" alt="small pizza display size">
                 <br>
-                <input type="radio" name="small" value="small">
+                <input type="radio" name="size" value="small">
               </label>
             </div>
             <div class="col-md-3">
               <label>
                 <img src="img/medium.png" alt="medium pizza display size">
                 <br>
-                <input type="radio" name="medium" value="medium">
+                <input type="radio" name="size" value="medium">
               </label>
             </div>
             <div class="col-md-3">
                 <label>
                 <img src="img/large.png" alt="large pizza display size">
                 <br>
-                <input type="radio" name="large" value="large">
+                <input type="radio" name="size" value="large">
                 </label>
             </div>
           </div>
+          <button id="orderButton" type="submit" class="btn btn-info">Submit for total</button>
         </form>
       </div>
 <!-- End Pizza Form -->
+<!-- Begin Results -->
+      <div class-"Results">
+        <h2>Total is:<span id="pizzaTotal"></span></h2>
+      </div>
+
 
 
 
