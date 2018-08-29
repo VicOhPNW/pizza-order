@@ -34,6 +34,8 @@ Independent exercise to apply Javascript skills learned in weeks 1-4 of Epicodus
 3. Click the preferred options then submit for the total cost.
 
 ## Known Bugs
+1. Order must include toppings and a fulfillment method. Not choosing will result in NaN.
+2. Have not met listed spec, "User will see list of clickable pizzas ordered and upon click will see details."
 
 
 ## Support and contact details
