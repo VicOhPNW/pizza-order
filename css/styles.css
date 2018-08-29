@@ -1,23 +1,41 @@
 
 * {
-  font-family: 'Rajdhani', sans-serif;;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
+  background-color: #e6faff;
+  border-style: dashed;
+  border-width: thick;
+  border-color: #0080ff;
 }
-
 
 .emphasize {
   font-weight: bold;
   font-size: 50px;
 }
 
+.form {
+  padding-left: 5%;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: #ffd9b3
+  background-color: #ffebe6;
+  border-style: dashed;
+  border-color: #ff471a;
+  border-width: thick;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.results {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #orderButton {
@@ -34,6 +52,10 @@
 
 #fulfillment {
   margin-top: 40px;
+}
+
+body {
+  background-image: url("../img/pizza2.png");
 }
 
 img {

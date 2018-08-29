@@ -9,12 +9,12 @@
     <title>Order Charlie's online</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <h1>Charlie's Pizza</h1>
+      <h2>Order for pickup or delivery</h2>
+    </div>
+    <!-- Begin Pizza Form -->
     <div class="container">
-      <div class="jumbotron">
-        <h1>Charlie's Pizza</h1>
-        <h2>Order for pickup or delivery</h2>
-      </div>
-<!-- Begin Pizza Form -->
       <div class="form">
         <form id="pizzaForm">
           <div class="row" id="size">
@@ -72,12 +72,12 @@
             <h3>Fulfillment method:</h3>
             <label>
               <input type="radio" name="fulfillment" value="pick-up">
-              Pick-up
+              Pick-up (free)
             </label>
             <br>
             <label>
               <input type="radio" name="fulfillment" value="delivery">
-              Delivery
+              Delivery ($3.00)
             </label>
           </div>
 
@@ -86,13 +86,9 @@
       </div>
 <!-- End Pizza Form -->
 <!-- Begin Results -->
-      <div class="Results">
+      <div class="results">
         <h2>Total is:<span id="pizzaTotal"></span></h2>
       </div>
-
-
-
-
     </div>
   </body>
 </html>
